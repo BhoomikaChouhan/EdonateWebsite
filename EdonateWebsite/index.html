@@ -1,0 +1,190 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>eDonate</title>
+  <link rel="stylesheet" type="text/css" href="./Assets/index.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+  <header class="header">
+    <nav class="navbar-style">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-taggle="collapse" data-target="#micon">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a><img class="logo" src="./Assets/MyImages/logoo.webp"></a>
+        </div>
+        <div class="collapse navbar-collapse" id="micon">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#main">Home</a></li>
+            <li><a href="#about-us">About Us</a></li>
+            <li><a href="#talk">Talk To Us</a></li>
+            <button id="don" data-target="#donations">Donate</button>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <section id="main">
+    <div class="container">
+      <div class="col-sm-4">
+        <h1 class="big-text">Make a  <strong>Difference</strong>, Save Lives</h1>
+        <h3><strong>See the Impact of Your Generosity</strong></h3>
+        <p>
+          Giving to causes you care about not only helps organizations but also brings joy to your own life.
+          Many people regularly give to charities to support important causes and feel the positive effects on their own well-being.
+        </p>
+        <p>
+          Charity is crucial for helping others in times of war, disasters, emergencies, and addressing issues like hunger, poverty, and orphanhood. Your donations provide essentials like food, shelter, and medical aid.
+          Join Us in Changing Lives
+Your Donations Matter
+When you donate, you become part of positive change, helping communities and transforming lives. Your generosity offers hope and resilience in tough times.
+
+Let's work together to make a lasting impact and create a better future. Join our community, and let's build a brighter world for everyone.
+        </p>
+      </div>
+      <div class="col-sm-5">
+        <img src="./Assets/MyImages/do.jpeg" class="image-responsive" height="450px" width="550px">
+      </div>
+    </div>
+  </section>
+  <section id="donations">
+    <div class="flexcontainer">
+      <div class="col-sm1">
+        <div class="col">
+          <h3>Recent Donations</h2>
+            <ul class="recent" id="recent1">
+              <li><a href="">Clothing</a></li>
+              <li><a href="">Kitchen Ware</a></li>
+              <li><a href="">Books</a></li>
+              <li><a href="">Toys and Games</a></li>
+            </ul>
+        </div>
+      </div>
+      <div id="new-sect">
+
+      </div>
+      <div class="don-sect">
+      <div class="col-sm2" id="recent-don">
+        <h3>Item Donated</h3>
+        <img id="item-image" alt="Item Image" src="./Assets/MyImages/clothing.jpg" />
+        <h4 id="item-description">
+          Description:-
+          Various Types of Winter Clothes</h4>
+      </div>
+    </div>
+      <div class="col-sm3">
+        <h3>Donate Now!</h3>
+        <form id="description-form">
+          <label for="description-form">Full Name</label>
+          <input type="text" id="fname" name="fullname" placeholder="Full Name.." required>
+          <label for="description-form">Email</label>
+          <input type="email" id="email" placeholder="Email" required><br>
+          <label for="description-form">Item Description:</label>
+          <textarea id="description-form1"></textarea>
+          <h5><strong>Insert a picture of the item(s):</strong></h5>
+          <input type="file" id="myFile" name="filename" required><br>
+          <input type="submit" id="submitButton" value="Submit">
+        </form>
+      </div>
+    </div>
+  </section>
+  <section id="about-us">
+    <div class="abt-icons">
+      <div class="abt">
+        <h1>About Us</h1>
+        <p>Welcome to eDonate, a non-profit platform dedicated to making a positive impact on the lives of those in need. Our goal is to create a legitimate space where you can share items to enrich the lives of the less fortunate.
+
+          At eDonate, we strive to ensure that the items shared through our platform have a meaningful and positive impact on the beneficiaries. We believe in the power of community and the collective effort to make a difference in the world.
+          
+          To maintain the quality and safety of the donations, we currently do not accept food-related items. This decision is made to prioritize the well-being of the recipients. We are actively working on implementing measures to test and verify food donations before they are distributed.
+          
+          Join us in building a compassionate community where everyone has the opportunity to contribute and make a difference. Together, we can create positive change and improve the lives of those who need it most.</p>
+      </div>
+      <div class="icons">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-instagram-square"></i>
+      </div>
+    </div>
+  </section>
+  <section id="talk">
+    <div class="form-container">
+      <h1>Talk To Us</h1>
+      <form action="" id="contact-form">
+        <div class="row">
+          <div class="col-25">
+            <label for="fname">First Name</label>
+          </div>
+          <div class="col-75">
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="lname">Last Name</label>
+          </div>
+          <div class="col-75">
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="country">State</label>
+          </div>
+          <div class="col-75">
+            <select id="State" name="State">
+              <option value="Indore">Indore</option>
+              <option value="Dewas">Dewas</option>
+              <option value="Ujjain">Ujjain</option>
+            </select>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="subject">Subject</label>
+          </div>
+          <div class="col-75">
+            <textarea id="subject" name="subject" placeholder="Type here.." style="height:200px"></textarea>
+          </div>
+        </div>
+        <div class="row">
+          <input type="submit" value="Submit" id="sub-button">
+        </div>
+      </form>
+    </div>
+  </section>
+  <footer>
+    <div class="footer">
+      <div class="links">
+        <ul>
+          <li><a href="#about-us">About</a></li>
+          <li> <a href="#talk">Talk To Us</a></li>
+          <li><a href="#main">Why You should Donate?</a></li>
+        </ul>
+      </div>
+      <div class="partners">
+        <h2>Our Partners</h2>
+        <ul>
+          <li>Mastercard</li>
+          <li>Razorpay</li>
+          <li>Direct Relief</li>
+          <li>Indian donation center</li>
+        </ul>
+      </div>
+    </div>
+    <div class="last-h4">
+      <h4>Developed by Bhoomika Chouhan</h4>
+    </div>
+  </footer>
+  <script src="index.js"></script>
+</body>
+
+</html>
